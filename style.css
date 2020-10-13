@@ -11,7 +11,7 @@ body{
   background-image: url(img/nav/nav.png);
 }
 
-h3, h4, h5{
+h3, h4{
   text-align: center;
 }
 
@@ -190,6 +190,20 @@ text-shadow:0 0 6px plum;
 
 
 /* Projects Section */
+.group2 ul{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-weight: bolder;
+  background-color: black;
+  padding: 10px;
+}
+.group2 img{
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+
+}
 .mywork {
   text-align: center;
 }
@@ -202,14 +216,17 @@ text-shadow:0 0 6px plum;
 }
 .group2 h2{
   color: white;
+  background-color: black;
   text-align: center;
   margin: 12px;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .group2 p{
   color: white;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
 }
 .group2 hr{
   background-color: lightgrey;
@@ -399,7 +416,7 @@ footer a{
 .group3{
   width: 85%;
 }
-  
+	
 }
  
  
