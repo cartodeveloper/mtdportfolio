@@ -11,13 +11,22 @@ body{
   background-image: url(img/nav/nav.png);
 }
 
+h2{
+  font-size: 40px;
+}
+h3{
+  font-size: 35px;
+}
+h4{
+  font-size: 30px;
+}
 h3, h4{
   text-align: center;
 }
 
 
 p{
-  font-size: 16px;
+  font-size: 25px;
 }
 
 /* my horiRuler */
@@ -110,7 +119,7 @@ nav img a{
   background-size: cover;
 }
 .wrapper {
-	width: 580px;
+	width: 1000px;
   margin: auto;
 }
 
@@ -121,7 +130,7 @@ text-shadow:0 0 6px plum;
 }
 .hero-text h1{
   font-family: "Poppins";
-  font-size: 55px;
+  font-size: 85px;
   font-weight: inherit;
   margin: 0;
 }
@@ -147,7 +156,9 @@ text-shadow:0 0 6px plum;
   margin: 0;
   flex: 1;
 }
-
+.item1 h2{
+  margin-top: 20px;
+}
 .item2{
  margin: 10px;
  flex: 1;
@@ -155,11 +166,11 @@ text-shadow:0 0 6px plum;
 
 .item3{
   flex: 1;
-  margin: 0;
+  margin: 15px;
   padding: 0;
 }
 .item3 h2{
-  font-size: 30px;
+  margin: 25px;
   text-align: center;
 }
 
@@ -180,9 +191,6 @@ text-shadow:0 0 6px plum;
   text-align: center;
   color: white;
 }
-.phrase h2{
-  font-size: 35px;
-}
 
 .phrase h3{
   font-size: 20px;
@@ -197,6 +205,7 @@ text-shadow:0 0 6px plum;
   font-weight: bolder;
   background-color: black;
   padding: 10px;
+  font-size: 25px;
 }
 .group2 img{
   width: 100%;
@@ -214,7 +223,7 @@ text-shadow:0 0 6px plum;
   margin: 8px;
   padding: 25px;
 }
-.group2 h2{
+.group2 h3{
   color: white;
   background-color: black;
   text-align: center;
@@ -258,7 +267,7 @@ text-shadow:0 0 6px plum;
   margin: 0;
   
 }
-.servList h2, h3{
+.servList h2{
   text-align: center;
 }
 
@@ -276,6 +285,7 @@ text-shadow:0 0 6px plum;
 
 .services ul li{
   padding: 10px;
+  font-size: 25px;
 }
 
 
@@ -357,11 +367,11 @@ justify-content: center;
 footer{
    background-color: #7A23B6;
    color: white;
-   height:50px;
+   height:100px;
    width: 100%;
 }
 
-footer p{
+footer h4{
   text-align: center;
   padding: 20px;
 }
@@ -405,7 +415,7 @@ footer a{
     }
 }
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:1400px){
   .hero{
     width: 100%;
   }
@@ -416,7 +426,18 @@ footer a{
 .group3{
   width: 85%;
 }
-	
+.group2 ul{
+ font-size: 18px;
+}
+p{
+ font-size: 16px;
+}
+h3{
+  font-size: 20px;
+}
+h4{
+  font-size: 18px;
+}
 }
  
  
