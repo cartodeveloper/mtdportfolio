@@ -1,0 +1,405 @@
+/* Styling my portfolio */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&family=Secular+One&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  background-image: url(img/nav/nav.png);
+}
+
+h3, h4, h5{
+  text-align: center;
+}
+
+
+p{
+  font-size: 16px;
+}
+
+/* my horiRuler */
+hr{
+  width: 60px;
+  height: 5px ;
+  background-color: #7A23B6;
+  border-radius: 5px;
+}
+
+
+/* nav style */
+nav img{
+width:100px;
+margin: 10px;
+}
+nav img a{
+  display: inline-flex;
+}
+
+.navBar-links {
+    height: 100%;
+}
+
+.navBar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar-links ul {
+    cursor: pointer;
+    display: flex;
+    margin: 8px;
+    padding: 0;
+}
+
+.navBar-links li {
+    list-style: none;
+}
+
+.navBar-links li a {
+    display: block;
+    text-decoration: none;
+    color: #89059b;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.navBar-links li:hover {
+    color: #9a07b8; 
+    font-weight: bold;
+}
+
+.hamIcon {
+    position: absolute;
+    top: 19px;
+    right: 9px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 21px;
+}
+
+.hamIcon .line {
+    height: 3px;
+    width: 100%;
+    background-color: purple;
+    border-radius: 20px;
+}
+
+/* Hero image style */
+.hero .overlay{
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    rgba(125, 5, 238, 0.555),
+    rgba(142, 36, 170, 0.8)
+  );
+}
+
+.hero {
+  position: relative;
+  width: 100vw; /* 100% of ViewPort width */
+  min-height: 100vh;/* 100% of ViewHeight width */
+  background-image: url("img/hero/mariato.png");
+  background-size: cover;
+}
+.wrapper {
+	width: 580px;
+  margin: auto;
+}
+
+.hero-text{
+color: white;
+text-align: center;
+text-shadow:0 0 6px plum;
+}
+.hero-text h1{
+  font-family: "Poppins";
+  font-size: 55px;
+  font-weight: inherit;
+  margin: 0;
+}
+
+.hero-text p{
+  margin: 10px;
+  font-size: 20px;
+  font-weight: inherit;
+}
+
+
+/* About Me Section */
+
+.group1{
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+  padding: 25px;
+}
+
+.item1{
+  text-align: left;
+  margin: 0;
+  flex: 1;
+}
+
+.item2{
+ margin: 10px;
+ flex: 1;
+}
+
+.item3{
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+.item3 h2{
+  font-size: 30px;
+  text-align: center;
+}
+
+.item2 img{
+  width:100%;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.two{
+ background-color:#7A23B6;
+ width: 100%;
+}
+
+.phrase{
+  margin:25px;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+.phrase h2{
+  font-size: 35px;
+}
+
+.phrase h3{
+  font-size: 20px;
+}
+
+
+/* Projects Section */
+.mywork {
+  text-align: center;
+}
+
+.group2{
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+  padding: 25px;
+}
+.group2 h2{
+  color: white;
+  text-align: center;
+  margin: 12px;
+}
+
+.group2 p{
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.group2 hr{
+  background-color: lightgrey;
+  border-radius: 8px;
+}
+
+.group2 a{
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 16px;
+}
+.group2 a:hover{
+  color:lightgrey;
+}
+.group2 a:active{
+  color: rgb(185, 0, 0);
+}
+
+.project1, .project2, .project3{
+ flex: 1;
+ background-color:#7A23B6;
+ margin: 10px;
+ border-radius: 10px;
+}
+/*Services Section */
+.servList{
+  margin: 0;
+  
+}
+.servList h2, h3{
+  text-align: center;
+}
+
+.services {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #7A23B6;
+}
+
+.services ul {
+  flex-direction: column;
+}
+
+.services ul li{
+  padding: 10px;
+}
+
+
+/* Contact Section */
+.contactme{
+ margin: 15px;
+}
+
+.contactme h2{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.group3{
+  width: 50%;
+  margin: auto;
+  background-color: #7A23B6;
+  padding: 50px;
+  display: flex;
+  border-radius: 10px;
+}
+
+form{
+  width: 100%;
+  display: block;
+}
+
+form label{
+  display: block;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 5px;
+}
+form input[type=text] {
+  color: #000;
+  margin-bottom: 20px;
+  width: 95%;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+form button{
+  font-size: 22px;
+  cursor: pointer;
+}
+
+form [type=submit]{
+ background-color: black;
+ margin: 0;
+ width: 95%;
+ margin-top: 20px;
+ border-radius: 8px;
+ color:white;
+ padding: 10px;
+}
+
+textarea {
+  width: 95%;
+  min-height: 100px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+
+/* Links Section */
+.links{
+margin-top: 40px;
+display: flex;
+justify-content: center;
+}
+
+.links img{
+  width: 90px;
+}
+
+/* Footer Section */
+
+footer{
+   background-color: #7A23B6;
+   color: white;
+   height:50px;
+   width: 100%;
+}
+
+footer p{
+  text-align: center;
+  padding: 20px;
+}
+
+footer a{
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Rule for my nav -Ham menu */
+@media (max-width: 700px) {
+  .navBar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .hamIcon {
+        display: flex;
+    }
+
+    .navBar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navBar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navBar-links ul li {
+        text-align: center;
+    }
+
+    .navBar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navBar-links.active {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width:1000px){
+  .hero{
+    width: 100%;
+  }
+  .group1, .group2{
+    flex-direction: column;
+  }
+
+.group3{
+  width: 85%;
+}
+  
+}
+ 
+ 
